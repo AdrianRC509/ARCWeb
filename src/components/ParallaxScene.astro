@@ -1,0 +1,40 @@
+---
+import Parallax from "./Parallax.astro";
+
+const layers = [
+  { src: "/parallax/sky.svg",              speed: 0.0,  alt: "" },
+  { src: "/parallax/mountains-far.svg",    speed: 0.15, alt: "" },
+  { src: "/parallax/mountains-mid.svg",    speed: 0.30, alt: "" },
+  { src: "/parallax/mountains-near.svg",   speed: 0.50, alt: "" },
+  { src: "/parallax/trees-foreground.svg", speed: 0.75, alt: "" },
+];
+---
+
+<Parallax layers={layers} height="100vh" class="night-scene" fadeColor="#1e1a2e">
+  <div class="hero">
+    <h1>Adrian</h1>
+    <p>Software &amp; Controls Engineer</p>
+  </div>
+</Parallax>
+
+<style>
+  .hero {
+    text-align: center;
+    color: var(--text-primary);
+    padding: 0 1.5rem;
+  }
+  .hero h1 {
+    font-size: clamp(3rem, 8vw, 6rem);
+    font-weight: 700;
+    letter-spacing: -0.02em;
+    margin: 0 0 0.5rem;
+    text-shadow: 0 2px 24px rgba(201, 184, 255, 0.35);
+  }
+  .hero p {
+    font-size: clamp(1rem, 2vw, 1.25rem);
+    color: var(--text-muted);
+    margin: 0;
+    letter-spacing: 0.05em;
+    text-transform: uppercase;
+  }
+</style>

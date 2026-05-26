@@ -1,0 +1,22 @@
+:root {
+  --night-sky-top:    #0a0612;
+  --night-sky-mid:    #1a0f2e;
+  --night-sky-low:    #2d1b4e;
+  --mountain-far:     #3d2b5f;
+  --mountain-mid:     #281a40;
+  --mountain-near:    #150a26;
+  --trees-fg:         #08040f;
+  --moon-glow:        #c9b8ff;
+  --star:             #e8dcff;
+  --text-primary:     #f0e8ff;
+  --text-muted:       #a896d4;
+}
+
+*, *::before, *::after {
+  box-sizing: border-box;
+}
+
+html, body {
+  margin: 0;
+  padding: 0;
+}

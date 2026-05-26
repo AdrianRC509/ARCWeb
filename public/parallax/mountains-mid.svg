@@ -1,0 +1,20 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1920 1080" preserveAspectRatio="xMidYMax slice">
+  <path fill="#281a40" d="
+    M 0 1080
+    L 0 720
+    L 120 700
+    L 300 560
+    L 480 610
+    L 620 490
+    L 800 580
+    L 1000 495
+    L 1150 600
+    L 1330 510
+    L 1520 580
+    L 1700 620
+    L 1820 680
+    L 1920 700
+    L 1920 1080
+    Z
+  "/>
+</svg>
